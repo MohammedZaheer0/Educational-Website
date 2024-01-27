@@ -1,3 +1,8 @@
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#main'),
+//     smooth: true
+// });
+
 // Change Navbar Style On Scroll
 
 window.addEventListener("scroll",()=>{
