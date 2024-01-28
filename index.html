@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <!-- Swiper JS CDN -->
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- Locomotive CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <style>
@@ -273,7 +273,7 @@
         
         
         <!-- Testimonials  -->
-        <section class="container testimonials__container swiper mySwiper">
+        <section class="container testimonials__container  mySwiper">
 
             <h2>Studenst Testimonials</h2>
             <div class="swiper-wrapper">
@@ -407,7 +407,7 @@
                 </div>
             </div>
             <div class="footer__copyright">
-                <small>Copyright &copy; Zaheer Education Tutorials</small>
+                <small>Copyright &copy; Al-Educational Institute</small>
             </div>
         </footer>
 
@@ -419,5 +419,24 @@
     <!-- Locomotive JS -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
    <script src="main.js"></script> 
+
+   <script>
+    // Swiper Js
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        //when window width is >= 600px
+        breakpoints:{
+            600:{
+                slidesPerView:2
+            }
+        }
+    });
+   </script>
+
 </body>
 </html>

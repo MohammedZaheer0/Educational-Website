@@ -27,23 +27,6 @@ Faqs.forEach(faq =>{
 })
 
 
-// Swiper Js
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    //when window width is >= 600px
-    breakpoints:{
-        600:{
-            slidesPerView:2
-        }
-    }
-  });
-
-
 // Nav Menu  
 let Open = document.getElementById("open-menu-btn");
 let Close = document.getElementById("close-menu-btn");
