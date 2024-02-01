@@ -310,6 +310,8 @@ footer{
     background: var(--color-bg1);
     padding-top: 3rem;
     font-size: 0.9rem;
+    height: 100%;
+    margin-bottom: 0;
 }
 .footer__container{
     display: grid;
